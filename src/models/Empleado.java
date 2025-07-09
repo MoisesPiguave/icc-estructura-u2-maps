@@ -5,6 +5,12 @@ public class Empleado implements Comparable<Empleado>{
     private String name;
     private String position;
 
+    
+
+    public Empleado(int id) {
+        this.id = id;
+    }
+
     public Empleado(int id, String name, String position) {
         this.id = id;
         this.name = name;
